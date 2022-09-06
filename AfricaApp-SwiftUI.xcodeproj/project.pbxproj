@@ -32,6 +32,9 @@
 		BF0B82EB28C7222200211FD7 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0B82EA28C7222200211FD7 /* MapView.swift */; };
 		BF0B82ED28C7222F00211FD7 /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0B82EC28C7222F00211FD7 /* GalleryView.swift */; };
 		BF0B82EF28C7223F00211FD7 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0B82EE28C7223F00211FD7 /* MainView.swift */; };
+		BF1C458228C733A700B1DB43 /* CoverImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1C458128C733A700B1DB43 /* CoverImageView.swift */; };
+		BF1C458528C7363E00B1DB43 /* CoverImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1C458428C7363E00B1DB43 /* CoverImageModel.swift */; };
+		BF1C458828C737ED00B1DB43 /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1C458728C737ED00B1DB43 /* CodableBundleExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +84,9 @@
 		BF0B82EA28C7222200211FD7 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		BF0B82EC28C7222F00211FD7 /* GalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
 		BF0B82EE28C7223F00211FD7 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		BF1C458128C733A700B1DB43 /* CoverImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageView.swift; sourceTree = "<group>"; };
+		BF1C458428C7363E00B1DB43 /* CoverImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageModel.swift; sourceTree = "<group>"; };
+		BF1C458728C737ED00B1DB43 /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,9 +138,12 @@
 			isa = PBXGroup;
 			children = (
 				BF0B82E628C7217600211FD7 /* Info.plist */,
+				BF1C458328C7362F00B1DB43 /* Model */,
 				BF0B82DD28C720C800211FD7 /* Data */,
+				BF1C458628C737B700B1DB43 /* Extension */,
 				BF0B82C828C7209100211FD7 /* Video */,
-				BF0B82E728C721E200211FD7 /* App */,
+				BF1C458028C7338800B1DB43 /* View (VM) */,
+				BF0B82E728C721E200211FD7 /* App (V) */,
 				BF0B82A228C71F0500211FD7 /* Assets.xcassets */,
 				BF0B82A428C71F0500211FD7 /* Preview Content */,
 			);
@@ -194,7 +203,7 @@
 			path = Data;
 			sourceTree = "<group>";
 		};
-		BF0B82E728C721E200211FD7 /* App */ = {
+		BF0B82E728C721E200211FD7 /* App (V) */ = {
 			isa = PBXGroup;
 			children = (
 				BF0B829E28C71F0300211FD7 /* AfricaApp_SwiftUIApp.swift */,
@@ -204,7 +213,31 @@
 				BF0B82EA28C7222200211FD7 /* MapView.swift */,
 				BF0B82EC28C7222F00211FD7 /* GalleryView.swift */,
 			);
-			path = App;
+			path = "App (V)";
+			sourceTree = "<group>";
+		};
+		BF1C458028C7338800B1DB43 /* View (VM) */ = {
+			isa = PBXGroup;
+			children = (
+				BF1C458128C733A700B1DB43 /* CoverImageView.swift */,
+			);
+			path = "View (VM)";
+			sourceTree = "<group>";
+		};
+		BF1C458328C7362F00B1DB43 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BF1C458428C7363E00B1DB43 /* CoverImageModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BF1C458628C737B700B1DB43 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				BF1C458728C737ED00B1DB43 /* CodableBundleExtension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -353,10 +386,13 @@
 			files = (
 				BF0B82A128C71F0300211FD7 /* ContentView.swift in Sources */,
 				BF0B82EF28C7223F00211FD7 /* MainView.swift in Sources */,
+				BF1C458228C733A700B1DB43 /* CoverImageView.swift in Sources */,
+				BF1C458528C7363E00B1DB43 /* CoverImageModel.swift in Sources */,
 				BF0B82EB28C7222200211FD7 /* MapView.swift in Sources */,
 				BF0B829F28C71F0300211FD7 /* AfricaApp_SwiftUIApp.swift in Sources */,
 				BF0B82E928C7221400211FD7 /* VideoListView.swift in Sources */,
 				BF0B82ED28C7222F00211FD7 /* GalleryView.swift in Sources */,
+				BF1C458828C737ED00B1DB43 /* CodableBundleExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
