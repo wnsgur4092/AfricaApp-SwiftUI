@@ -47,6 +47,8 @@
 		BF39EC4228CB1F6900F82ADB /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF39EC4128CB1F6900F82ADB /* LocationModel.swift */; };
 		BF39EC4428CCC79100F82ADB /* MapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF39EC4328CCC79100F82ADB /* MapAnnotationView.swift */; };
 		BF39EC4828CCE1A300F82ADB /* AnimalGridItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF39EC4728CCE1A300F82ADB /* AnimalGridItemView.swift */; };
+		BF39EC4E28CCE67800F82ADB /* Stickers.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF39EC4D28CCE67800F82ADB /* Stickers.xcassets */; };
+		BF39EC5228CCE67800F82ADB /* Stickers.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = BF39EC4B28CCE67700F82ADB /* Stickers.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		BFEC0D0B28C8DB6500FD63A0 /* AnimalDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEC0D0A28C8DB6500FD63A0 /* AnimalDetailView.swift */; };
 		BFEC0D0D28C8DD2E00FD63A0 /* HeadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEC0D0C28C8DD2E00FD63A0 /* HeadingView.swift */; };
 		BFEC0D0F28C8DE2F00FD63A0 /* InsetGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEC0D0E28C8DE2F00FD63A0 /* InsetGalleryView.swift */; };
@@ -67,7 +69,28 @@
 			remoteGlobalIDString = BF0B829A28C71F0300211FD7;
 			remoteInfo = "AfricaApp-SwiftUI";
 		};
+		BF39EC5028CCE67800F82ADB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF0B829328C71F0300211FD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF39EC4A28CCE67700F82ADB;
+			remoteInfo = Stickers;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BF39EC5628CCE67800F82ADB /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				BF39EC5228CCE67800F82ADB /* Stickers.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		BF0B829B28C71F0300211FD7 /* AfricaApp-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AfricaApp-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -114,6 +137,9 @@
 		BF39EC4128CB1F6900F82ADB /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
 		BF39EC4328CCC79100F82ADB /* MapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnotationView.swift; sourceTree = "<group>"; };
 		BF39EC4728CCE1A300F82ADB /* AnimalGridItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalGridItemView.swift; sourceTree = "<group>"; };
+		BF39EC4B28CCE67700F82ADB /* Stickers.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Stickers.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF39EC4D28CCE67800F82ADB /* Stickers.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Stickers.xcassets; sourceTree = "<group>"; };
+		BF39EC4F28CCE67800F82ADB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BFEC0D0A28C8DB6500FD63A0 /* AnimalDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailView.swift; sourceTree = "<group>"; };
 		BFEC0D0C28C8DD2E00FD63A0 /* HeadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadingView.swift; sourceTree = "<group>"; };
 		BFEC0D0E28C8DE2F00FD63A0 /* InsetGalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetGalleryView.swift; sourceTree = "<group>"; };
@@ -150,6 +176,7 @@
 				BF0B829D28C71F0300211FD7 /* AfricaApp-SwiftUI */,
 				BF0B82AE28C71F0500211FD7 /* AfricaApp-SwiftUITests */,
 				BF0B82B828C71F0500211FD7 /* AfricaApp-SwiftUIUITests */,
+				BF39EC4C28CCE67700F82ADB /* Stickers */,
 				BF0B829C28C71F0300211FD7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -160,6 +187,7 @@
 				BF0B829B28C71F0300211FD7 /* AfricaApp-SwiftUI.app */,
 				BF0B82AB28C71F0500211FD7 /* AfricaApp-SwiftUITests.xctest */,
 				BF0B82B528C71F0500211FD7 /* AfricaApp-SwiftUIUITests.xctest */,
+				BF39EC4B28CCE67700F82ADB /* Stickers.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -293,6 +321,15 @@
 			path = Utilities;
 			sourceTree = "<group>";
 		};
+		BF39EC4C28CCE67700F82ADB /* Stickers */ = {
+			isa = PBXGroup;
+			children = (
+				BF39EC4D28CCE67800F82ADB /* Stickers.xcassets */,
+				BF39EC4F28CCE67800F82ADB /* Info.plist */,
+			);
+			path = Stickers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -303,10 +340,12 @@
 				BF0B829728C71F0300211FD7 /* Sources */,
 				BF0B829828C71F0300211FD7 /* Frameworks */,
 				BF0B829928C71F0300211FD7 /* Resources */,
+				BF39EC5628CCE67800F82ADB /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				BF39EC5128CCE67800F82ADB /* PBXTargetDependency */,
 			);
 			name = "AfricaApp-SwiftUI";
 			productName = "AfricaApp-SwiftUI";
@@ -349,6 +388,21 @@
 			productReference = BF0B82B528C71F0500211FD7 /* AfricaApp-SwiftUIUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		BF39EC4A28CCE67700F82ADB /* Stickers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF39EC5328CCE67800F82ADB /* Build configuration list for PBXNativeTarget "Stickers" */;
+			buildPhases = (
+				BF39EC4928CCE67700F82ADB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Stickers;
+			productName = Stickers;
+			productReference = BF39EC4B28CCE67700F82ADB /* Stickers.appex */;
+			productType = "com.apple.product-type.app-extension.messages-sticker-pack";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -370,6 +424,9 @@
 						CreatedOnToolsVersion = 13.4.1;
 						TestTargetID = BF0B829A28C71F0300211FD7;
 					};
+					BF39EC4A28CCE67700F82ADB = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
 				};
 			};
 			buildConfigurationList = BF0B829628C71F0300211FD7 /* Build configuration list for PBXProject "AfricaApp-SwiftUI" */;
@@ -388,6 +445,7 @@
 				BF0B829A28C71F0300211FD7 /* AfricaApp-SwiftUI */,
 				BF0B82AA28C71F0500211FD7 /* AfricaApp-SwiftUITests */,
 				BF0B82B428C71F0500211FD7 /* AfricaApp-SwiftUIUITests */,
+				BF39EC4A28CCE67700F82ADB /* Stickers */,
 			);
 		};
 /* End PBXProject section */
@@ -427,6 +485,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF39EC4928CCE67700F82ADB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF39EC4E28CCE67800F82ADB /* Stickers.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -493,6 +559,11 @@
 			isa = PBXTargetDependency;
 			target = BF0B829A28C71F0300211FD7 /* AfricaApp-SwiftUI */;
 			targetProxy = BF0B82B628C71F0500211FD7 /* PBXContainerItemProxy */;
+		};
+		BF39EC5128CCE67800F82ADB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF39EC4A28CCE67700F82ADB /* Stickers */;
+			targetProxy = BF39EC5028CCE67800F82ADB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -747,6 +818,46 @@
 			};
 			name = Release;
 		};
+		BF39EC5428CCE67800F82ADB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L8QX5LU28U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Stickers/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Africa Stickers";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "au.edu.uts.student.AfricaApp-SwiftUI.Stickers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF39EC5528CCE67800F82ADB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L8QX5LU28U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Stickers/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Africa Stickers";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "au.edu.uts.student.AfricaApp-SwiftUI.Stickers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -782,6 +893,15 @@
 			buildConfigurations = (
 				BF0B82C628C71F0500211FD7 /* Debug */,
 				BF0B82C728C71F0500211FD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF39EC5328CCE67800F82ADB /* Build configuration list for PBXNativeTarget "Stickers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF39EC5428CCE67800F82ADB /* Debug */,
+				BF39EC5528CCE67800F82ADB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
